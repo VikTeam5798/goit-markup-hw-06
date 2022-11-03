@@ -76,6 +76,57 @@
               <use href="./images/symbol-defs.svg#icon-close"></use>
             </svg>
           </button>
+
+          <form class="modal-form">
+            <p>Залиште свої дані, ми вам передзвонимо</p>
+
+            <label class="form-modal">
+              <span class="form-label">Ім'я</span>
+              <input type="name" class="form-input" autocomplete="on" />
+              <svg class="form-icon" height="18" width="18">
+                <use href="./images/symbol-defs.svg#person-black"></use>
+              </svg>
+            </label>
+
+            <label class="form-modal">
+              <span class="form-label">Телефон</span>
+              <input type="tel" class="form-input" autocomplete="on" />
+              <svg class="form-icon" height="18" width="18">
+                <use href="./images/symbol-defs.svg#phone-black"></use>
+              </svg>
+            </label>
+
+            <label class="form-modal">
+              <span class="form-label">Поштa</span>
+              <input type="email" class="form-input" autocomplete="on" />
+              <svg class="form-icon" height="18" width="18">
+                <use href="./images/symbol-defs.svg#email-black"></use>
+              </svg>
+            </label>
+
+            <label class="form-modal">
+              <span class="form-label">Коментар</span>
+              <textarea
+                class="comment"
+                name="comment"
+                cols="30"
+                rows="10"
+                placeholder="Введіть текст"></textarea>
+            </label>
+
+            <label class="label">
+              <input type="checkbox" class="checkbox" />
+              <span class="icon-modal"></span>
+              <span
+                >Погоджуюся з розсилкою та приймаю
+                <a class="form-link" href=""> Умови договору</a></span
+              >
+            </label>
+
+            <div class="btn-modal">
+              <button type="submit" class="modal-btn">Відправити</button>
+            </div>
+          </form>
         </div>
       </div>
 
@@ -484,6 +535,23 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="form">
+          <p>Підпишіться на розсилку</p>
+          <form name="email">
+            <label for="emailfooter"></label>
+            <input
+              type="email"
+              name="email"
+              id="emailfooter"
+              placeholder="E-mail" />
+            <button type="submit">
+              Підписатися
+              <svg class="icon-form" height="24" width="24">
+                <use href="./images/symbol-defs.svg#icon-plane"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
